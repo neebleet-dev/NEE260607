@@ -1,0 +1,12 @@
+td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.selected { background: yellow !important; }
+.approved { background: green !important; }
+.rejected { background: orange !important; }
+}

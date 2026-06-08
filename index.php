@@ -9,15 +9,15 @@
 <h2>Gestor de Vacaciones</h2>
 
 <form method="post" action="login.php">
-    Email: <input type="text" name="email"><br>
-    Password: <input type="password" name="pass"><br>
+    usuario: <input type="text" name="email"><br>
+    Clave de acceso: <input type="password" name="pass"><br>
 
    
     <button type="submit">Entrar</button>
 </form>
 
 <br>
-<a href="register.php">Registrarse</a>
+<a href="register.php">Registrarse como usuario</a>
 
 </body>
 version: 260607_2253

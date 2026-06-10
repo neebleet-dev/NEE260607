@@ -25,11 +25,11 @@ if ($_POST) {
     $ok = registrar_usuario($email, $pass, $rol);
 
     if (!$ok) {
-        echo "❌ El usuario ya existe. <a href='register.php'>Volver</a>";
+        echo "<center>El usuario ya existe. <a href='register.php'>Volver</a></center>";
         exit;
     }
 
-    echo "✔ Usuario registrado correctamente. <a href='index.php'>Ir al login</a>";
+    echo "<center>Usuario registrado correctamente.  <a href='index.php'>Ir al login</a></center>";
     exit;
 }
 

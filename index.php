@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h2>Gestor de Vacaciones</h2>
+<h2>Gestor de Vacaciones CONFLICTO EN GIT</h2>
 
 <form method="post" action="login.php">
     usuario: <input type="text" name="email"><br>
